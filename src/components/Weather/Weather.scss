@@ -1,0 +1,30 @@
+.weather {
+    font-size: 30px;
+    &-heading {
+        margin-bottom: 30px;
+        overflow-x: hidden;
+        text-overflow: ellipsis;
+    }
+    & .wi-day-sunny:before {
+        font-size: 50px;
+    }
+    & > span {
+        display: block;
+        margin-bottom: 20px;
+    }
+    &-temp {
+        margin-bottom: 20px;
+    }
+    &-desc {
+        margin-top: 20px;
+    }
+    &-more {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 500;
+        & > span:first-child {
+            margin-right: 40px;
+        }
+    }
+}
